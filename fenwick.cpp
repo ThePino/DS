@@ -5,7 +5,7 @@ using std::vector;
 class fenwick{
 	public :
 		fenwick(int S){
-			this->S = S;
+			this->S = S + 1;
 			v.resize(S + 2,0);
 		}
 		void update(int i,int val){
